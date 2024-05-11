@@ -11,3 +11,5 @@ RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | b
     && nvm install $NODE_VERSION
 
 RUN curl -o- https://raw.githubusercontent.com/qizhou/my-ubuntu/main/.bashrc >> ~/.bashrc
+
+RUN curl -o- https://raw.githubusercontent.com/qizhou/my-ubuntu/main/.tmux.conf >> ~/.tmux.conf
